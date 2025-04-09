@@ -52,10 +52,22 @@ return require('packer').startup(function(use)
   })
   
   use({
+      'EdenEast/nightfox.nvim',
+      config = function()
+          vim.cmd.colorscheme ('nightfox')
+      end
+  })
+
+
+  use({
       'savq/melange-nvim',
       config = function()
           vim.cmd.colorscheme ('melange')
       end
   })
 
+
+  use("eandrju/cellular-automaton.nvim")
+
 end)
+
