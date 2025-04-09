@@ -69,5 +69,11 @@ return require('packer').startup(function(use)
 
   use("eandrju/cellular-automaton.nvim")
 
+
+  use('thedenisnikulin/vim-cyberpunk')
+
+
+
 end)
+
 
